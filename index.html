@@ -15,9 +15,11 @@
         <h1>
 			<div></div>
 			<script type="text/javascript">
+				//タイピング文字
 				(function () { var T = ' かいそな: Kythona| ぷろじぇくとのへや: Projectの部屋'.split('|'), S1 = 'background:#fff;color:#00c;text-decoration:underline', S2 = 'background:navy;color:#fff', D2 = 1, D3 = 3, H = 'innerHTML', C = 'cssText', L = 'length', D = document, r = 'kkkkkgggggssssszzzzztttttdddddnnnnnhhhhhbbbbbpppppmmmmmyyyrrrrrwwnyyyl'.split(''), h = 'かきくけこがぎぐげごさしすせそざじずぜぞたちつてとだぢづでどなにぬねのはひふへほばびぶべぼぱぴぷぺぽまみむめもやゆよらりるれろわをんゃゅょっ', b = 0, s = 0, a, d = 0, g, p, i, j, m, c, f, u, t, e = D.getElementsByTagName('div'); e = e[e.length - 1]; e[H] = '<span>|</span>'; u = e.lastChild; t = setInterval(function () { if (0 < d--) return; if (!s) { e.insertBefore(a = D.createElement('span'), u); l = a.style; l[C] = S1; g = T[b++]; if (!g) { clearInterval(t); setInterval(function () { u[H] = u[H] == '|' ? '&nbsp;' : '|' }, 500); return } p = m = d = 0; s = 1; return } if (s == 1) { f = a[H]; c = g.charAt(p); j = g.indexOf(':'); if ((i = h.indexOf(c)) >= 0) { if (m) a[H] = f.substr(0, f[L] - 1) + c, m = 0, p++; else a[H] = f + r[i], m = 1 } else if (j >= 0 && c == ':') d = D2, s = 2; else a[H] = f + (c == '<' ? '&lt;' : c == '\n' ? '<br>' : c), p++; if (p >= g[L]) l[C] = '', d = D2, s = 0; return } if (s == 2) { a[H] = g.substr(j + 1).replace(/\n/g, '<br>'); l[C] = S2; d = D3; s = 3; return } if (s == 3) l[C] = '', s = 0 }, 150) })()//--></script>
 			<noscript>Kythona Projectの部屋</noscript>
 		</h1>
+        
         <p1>Kythona(かいそな)のホームページへ来てくれてありがとう！ごゆっくりどうぞ。</p1>
         <br><img src="Kythona256.png" alt="Kythonaのロゴだと思う">
         <hr color="lightgreen" size="3">
@@ -26,7 +28,10 @@
         <div style="background: url(back.png);">
         <h2>キリ番GETしたらDiscordで報告しよう！！</h2>
         <a href="https://discord.com/invite/NjBheceZRB">Discordのサーバーへ行く！</a><br>
-
+<!--	
+//このサイトのソースコード見てるそこのキミへ
+//とある人が下のURLに大量アクセスするといったことがありました。
+//やめましょう。 -->
         <iframe src="https://re15bot.reitigo15.repl.co" width="400" height="60"></iframe>
         <hr><br>
         <h2>・プロジェクト一覧</h2>
