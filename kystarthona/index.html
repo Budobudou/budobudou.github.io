@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kystarthona(かいすたーそな)</title>
+        <link rel="stylesheet" href="mine.css">
+    	<meta name="description" content="検索候補や履歴、広告が表示されない、様々な検索ができる、全集中を支援するスタートページ">
+    	<meta property="og:description" content="検索候補や履歴、広告が表示されない、様々な検索ができる、全集中を支援するスタートページ">
+    	<meta property="og:image" content="Kythona256.png">
+    	<meta property="og:title" content="Kystarthona(かいすたーそな)">
+        <meta name="keywords" content="Kystarthona,かいすたーそな,ぶどぶどう,スタートページ">
+        <meta name="author" content="ぶどぶどう">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    </head>
+    <body>
+        
+            
+        <h4>検索方法の選択:<form name="sse">
+    <form action=""><select onchange="document.getElementById('page'+pageNo).style.display='none';document.getElementById('page'+(pageNo=(this.selectedIndex+1))).style.display='block'"><option>Bing</option><option>Google</option><option>YouTube</option><option>Twitter</option><option>niconico</option></select></form><script type="text/javascript"><!--
+        var pageNo=1;//--></script></h4>
+        
+</form>
+        <hr color="#EEEEEE">
+            <center><img src="kystarthona128.png" alt="Kystarthona"></center>
+    <br><br>
+    
+    <center><div>
+        <div id="page1">
+                <form action="https://www.bing.com/search" target="_blank" rel="noopener noreferrer">
+                    <img src="bing32.png" alt="bing">
+                    <input name=q autocomplete="off" size="28">
+                    </form>
+        </div>
+        <div id="page2" style="display:none">
+                <form action="https://www.google.com/search" target="_blank" rel="noopener noreferrer">
+                    <img src="google32.png" alt="google">
+                    <input name=q autocomplete="off" size="28">
+                    </form>
+        </div>
+        <div id="page3" style="display:none">
+            <form action="https://www.YouTube.com/search" target="_blank" rel="noopener noreferrer">
+                <img src="youtube32.png" alt="youtube">
+                <input name=q autocomplete="off" size="28">
+                </form>
+        </div>
+        <div id="page4" style="display:none">
+            <form action="https://Twitter.com/search" target="_blank" rel="noopener noreferrer">
+                <img src="twitter32.png" alt="Twitter">
+                <input name=q autocomplete="off" size="28">
+                </form>
+        </div>
+        <div id="page5" style="display:none">
+            
+                <img src="niconico32.png" alt="Niconico">
+                準備中
+                </form>
+        </div>
+    </div></center><br>
+<center><font color="FFFFF"></font>Enterで検索</font> </center><br>
+<center><a href="help.html">ヘルプ</a></center>>
+
+    </body>
